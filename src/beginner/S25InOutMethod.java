@@ -2,7 +2,7 @@ package beginner;
 
 import java.util.Scanner;
 
-public class s25InOutMethod {
+public class S25InOutMethod {
     public static void main(String[] args) {
         //간단한 데이터를 키보드로 입력받을 때 Scanner 사용. 기본 메서드는 nextXXX()형태를 취한다. 입력받으려는 타입과 next 타입()이 맞지 않으면 "NumberFormatException"이 발생.
         //대량의 데이터를 다룰 때는 Java.io(IO)를 사용.

@@ -3,7 +3,7 @@ package beginner;
 import java.util.Calendar;
 import java.util.Date;
 
-public class s16javaObjectType {
+public class S16javaObjectType {
     public static void main(String[] args) {
         //기본 타입의 배열은 참조 타입
         int[] m = {1,2,3}; // 기본 타입의 묶음인 배열도 참조 타입이다. 배열은 같은 타입의 나열이다.

@@ -7,7 +7,7 @@ class JLocation {
     public double lng;
 }
 
-public class s17javaUserDefinedType {
+public class S17javaUserDefinedType {
     public static void main(String[] args) {
 
         //두 개의 기본 타입

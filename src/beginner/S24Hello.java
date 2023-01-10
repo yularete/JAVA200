@@ -1,6 +1,6 @@
 package beginner;
 
-public class s24Hello {
+public class S24Hello {
 
     public static void showYou(){
         System.out.println("곧 자바왕이 될거야.");

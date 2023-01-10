@@ -1,6 +1,6 @@
 package beginner;
 
-public class s18javaTypeConversion {
+public class S18javaTypeConversion {
     public static void main(String[] args) {
         String slat = "  37.52127220511242   ";
 

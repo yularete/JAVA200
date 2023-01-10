@@ -1,6 +1,6 @@
-package intermediate;
+package intermediate1;
 
-public class s28Biocalendar {
+public class S28Biocalendar {
 
     public static final int PHYSICAL = 23;
 

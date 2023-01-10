@@ -1,6 +1,6 @@
-package intermediate;
+package intermediate1;
 
-public class s29BioCalendar {
+public class S29BioCalendar {
 
     public static final int PHYSICAL = 29; //개발자 정의의 상수
 

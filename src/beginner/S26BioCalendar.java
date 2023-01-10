@@ -1,6 +1,6 @@
 package beginner;
 //상수
-public class s26BioCalendar {
+public class S26BioCalendar {
     //상수, 상수값은 변경할 수 없다.
     public static final int PHYSICAL = 23; // public static final 예약어를 붙여 상수를 선언. 상수는 대문자를 사용.
 

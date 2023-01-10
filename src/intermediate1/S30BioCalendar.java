@@ -1,6 +1,6 @@
-package intermediate;
+package intermediate1;
 // non static 메서드 (멤버 메서드)
-public class s30BioCalendar {
+public class S30BioCalendar {
     public static final int PHYSICAL = 23;
     public double getBioRhythm(long days, int index, int max){
         return max*Math.sin((days%index)*2*Math.PI/index);
@@ -8,7 +8,7 @@ public class s30BioCalendar {
 
     public static void main(String[] args) {
         int days = 1200;
-        s30BioCalendar bio = new s30BioCalendar(); // 객체생성 해서 getBioRhythm 멤버 메소드 사용 가능
+        S30BioCalendar bio = new S30BioCalendar(); // 객체생성 해서 getBioRhythm 멤버 메소드 사용 가능
 
         double phyval = bio.getBioRhythm(days, PHYSICAL, 100);
         System.out.printf("나의 신체지수는 %1$.2f입니다.", phyval);
