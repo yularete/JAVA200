@@ -1,0 +1,3 @@
+[rank=1,song=Cateen,lastweek=1,imagesrc=https://www.billboard.com/images/pref_images/q61808osztw.jpg, artist=yula]
+[rank=2,song=My,lastweek=2,imagesrc=https://www.billboard.com/images/pref_images/q61808osztr.jpg, artist=yula]
+[rank=3,song=Love,lastweek=3,imagesrc=https://www.billboard.com/images/pref_images/q61808qsztr.jpg, artist=yula]
