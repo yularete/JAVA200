@@ -58,4 +58,5 @@ public class S75RestDay {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         return sdf.format(cal.getTime());
     }
+    public static String toWantedDay(String ss, int round){ return goGo(ss, -(round*7));}
 }
