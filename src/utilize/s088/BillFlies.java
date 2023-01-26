@@ -1,10 +1,10 @@
-package utilize;
+package utilize.s088;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.util.Date;
 //파일
-public class S88BillFlies {
+public class BillFlies {
     public static void main(String[] args) {
         File f = new File("billboard"); //"billboard"디렉토리에 대한 정보를 확인하기 위해 File 클래스를 생성.
         File[] fd = f.listFiles(); //"billboard"디렉토리 내부의 포함된 모든 파일을 배열로 반환한다.

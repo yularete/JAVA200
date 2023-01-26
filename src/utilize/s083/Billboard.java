@@ -1,15 +1,15 @@
-package utilize;
+package utilize.s083;
 import java.io.Serializable;
-public class S83Billboard implements Serializable {
+public class Billboard implements Serializable {
     private int rank; //데이터를 보호하기 위해 private으로 선언한다.
     private String song;
     private int lastweek;
     private String imagesrc;
     private String artistsrc;
     private String artist;
-    public S83Billboard() {} //기본 생성자를 선언ㅇ한다.
-    public S83Billboard(int rank, String song, int lastweek, String imagesrc, //멤버 6개, 5개를 초기화 할 생성자를 오버로딩한다.
-                        String artist, String artistsrc) {
+    public Billboard() {} //기본 생성자를 선언ㅇ한다.
+    public Billboard(int rank, String song, int lastweek, String imagesrc, //멤버 6개, 5개를 초기화 할 생성자를 오버로딩한다.
+                     String artist, String artistsrc) {
         super();
         this.rank = rank;
         this.song = song;
@@ -18,7 +18,7 @@ public class S83Billboard implements Serializable {
         this.artist = artist;
         this.artistsrc = artistsrc;
     }
-    public S83Billboard(int rank, String song, int lastweek, String imagesrc, String artist) {
+    public Billboard(int rank, String song, int lastweek, String imagesrc, String artist) {
         super();
         this.rank = rank;
         this.song = song;

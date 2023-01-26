@@ -1,14 +1,14 @@
-package utilize;
+package utilize.s092;
 import intermediate2.S75RestDay;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.ArrayList;
-public class S92RequestFromBillboardHot {
+public class RequestFromBillboardHot {
     ArrayList<String> htmls = new ArrayList<String>(); //문자열만 저장할 수 있는 ArrayList 객체 생성, 빌보드 웹사이트에서 읽은 내용을 이 리스트에 저장
     boolean isConnection = false;
 
-    public S92RequestFromBillboardHot() {
+    public RequestFromBillboardHot() {
         htmls.clear(); //저장할 ArrayList를 청소한다.
     }
     public void getAllHtml(String newUrls) {
@@ -64,7 +64,7 @@ public class S92RequestFromBillboardHot {
         return s;
     }
     public static void main(String[] args){
-        S92RequestFromBillboardHot rfw = new S92RequestFromBillboardHot();
+        RequestFromBillboardHot rfw = new RequestFromBillboardHot();
         String a="https://www.billboard.com/charts/hot-100/"; //빌보드 웹사이트 경로
         String rs=rfw.getTimeDate(a); //이번 주 날짜를 찾는다.
         System.out.println("이번 주"+rs);

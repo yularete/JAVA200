@@ -1,21 +1,22 @@
-package utilize;
+package utilize.s093;
 import intermediate2.S75RestDay;
+import utilize.s083.Billboard;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.ArrayList;
 
-public class S93RequestFromBillboardHot {
+public class RequestFromBillboardHot {
     ArrayList<String> htmls = new ArrayList<String>();
-    ArrayList<S83Billboard> billboards = new ArrayList<S83Billboard>();
+    ArrayList<Billboard> billboards = new ArrayList<Billboard>();
     boolean isConnection = false;
 
     public void RequestFromBillboardHot2() {
         htmls.clear();
         billboards.clear();
     }
-    public ArrayList<S83Billboard> getBillboards() {
+    public ArrayList<Billboard> getBillboards() {
         return billboards;
     }
     public void getAllHtml(String newUrls) {
@@ -121,7 +122,7 @@ public class S93RequestFromBillboardHot {
                 lastweek = lastweek.substring(lastweek.indexOf(">")+1);
                 lastweek = lastweek.substring(0,lastweek.indexOf("<")).trim();
                 //빌보드 객체에 정보를 저장한다.
-                S83Billboard board = new S83Billboard(
+                Billboard board = new Billboard(
                         toInt(rank), replace(song), //Integer는 기본 타입의 int에 대한 정보 저장, 변환을 위한 랩퍼 클래스이다.
                         toInt(__toStr(lastweek)),
                         imageurl, artisturl, artist);
@@ -135,7 +136,7 @@ public class S93RequestFromBillboardHot {
         }
     }
     public void printBillboard(){
-        for(S83Billboard dto : billboards){
+        for(Billboard dto : billboards){
             System.out.println(dto);
         }
     }
@@ -154,7 +155,7 @@ public class S93RequestFromBillboardHot {
     }
 
     public static void main(String[] args){
-        S93RequestFromBillboardHot rfw = new S93RequestFromBillboardHot();
+        RequestFromBillboardHot rfw = new RequestFromBillboardHot();
         String a = "https://www.billboard.com/charts/hot-100/";
         String rs =rfw.getTimeDate(a);
         rs = S75RestDay.toWantedDay(rs, 1);
@@ -167,4 +168,5 @@ public class S93RequestFromBillboardHot {
     public String toArtis(String msg){
         return msg.replaceAll("-"," ");
     }
+
 }

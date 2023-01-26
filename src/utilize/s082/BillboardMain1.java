@@ -1,5 +1,5 @@
-package utilize;
-public class S82BillboardMain1 {
+package utilize.s082;
+public class BillboardMain1 {
     public static void main(String[] args) {
         int rank =1; //정수 저장
         String song = "Cateen"; // 문자열 저장

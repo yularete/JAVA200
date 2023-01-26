@@ -1,9 +1,9 @@
-package utilize;
+package utilize.s089;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
 
-public class S89BillboardMain3 {
+public class BillboardMain3 {
     public static void main(String[] args) {
         String newUrls="https://www.billboard.com/charts/hot-100";
         URL url = null; //웹사이트 경로를 찾는 URL 클래스를 선언한다.

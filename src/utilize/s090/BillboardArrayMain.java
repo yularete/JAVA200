@@ -1,10 +1,10 @@
-package utilize;
+package utilize.s090;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.ArrayList;
-public class S90BillboardArrayMain {
+public class BillboardArrayMain {
     public static void main(String[] args) {
         ArrayList<String> htmls = new ArrayList<>(); //문자열만 저장할 수 있는 ArrayList 객체를 생성.
         String newUrls="https://www.billboard.com/charts/hot-100";
