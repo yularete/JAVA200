@@ -1,4 +1,4 @@
-package utilize3.s110;
+package utilize2.s110;
 public class CardRuleMain {
     public static void main(String[] args) {
         CardCase cc = new CardCase(); //카드 저장

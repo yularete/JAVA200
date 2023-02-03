@@ -1,4 +1,4 @@
-package utilize3.s110;
+package utilize2.s110;
 public class CardRule {
     /*
     - C3C8 3000
