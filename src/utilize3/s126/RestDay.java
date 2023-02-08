@@ -1,6 +1,8 @@
 package utilize3.s126;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
+
 public class RestDay {
     public static boolean isRest(Calendar tod) {
         boolean isRest = false;
@@ -24,5 +26,9 @@ public class RestDay {
                 System.out.println(toYMD(cal)+"is Rest Day.");
             }
         }
+    }
+    public static String toStrDate(Date dd){
+        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm");
+        return sdf.format(dd);
     }
 }
