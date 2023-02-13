@@ -20,7 +20,7 @@ public class SNail {
             for (int j = 0; j < n; j++) {
                 loc[x][y] = i * n + j + 1; //넣고
                 if (d == 0) { //오른쪽으로 이동
-                    if (y + 1 < n && loc[x][y] == 0) {
+                    if (y + 1 < n && loc[x][y+1] == 0) {
                         y++;
                     } else { //오른쪽 벽이나 숫자
                         d = 1; //아래
